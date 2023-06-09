@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
+import { HiOutlineMail } from 'react-icons/hi'
+import { TbCertificate } from "react-icons/tb";
 import Logo from '../assets/logo-white.png'
 
 const Navbar = () => {
@@ -28,7 +30,6 @@ const Navbar = () => {
           {!nav ? <FaBars /> : <FaTimes />}
           </div>
           
-          
           {/* Mobile Menu */}
           <ul className={!nav ? 'hidden' :'absolute top-0 left-0 w-full h-screen bg-[#000] flex flex-col justify-center items-center'}>
           <img src={Logo} alt="Logo Image" style={{width: '100px'}} />
@@ -39,19 +40,37 @@ const Navbar = () => {
           <li className='py-6 text-4xl'>Contact</li>
           </ul>
           
-          
-          {/* Social Icons */}
-          <div className='flex fixed flex-col top-[35%] left-0'>
+           {/* Social Icons */}
+          <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
-              <li>
-                <a href=""></a>
+              <li className='w-[160px] h-[60px] flex justify-between items-center bg-blue-600 ml-[-100px] hover:ml-[-10px] duration-300'>
+                <a className='flex justify-between items-center w-full text-gray-300'
+                href="/">
+                  LinkedIn <FaLinkedin size={30} />
+                </a>
+              </li>
+              <li className='w-[160px] h-[60px] flex justify-between items-center bg-[#333333] ml-[-100px] hover:ml-[-10px] duration-300'>
+                <a className='flex justify-between items-center w-full text-gray-300'
+                href="/">
+                  GitHub <FaGithub size={30} />
+                </a>
+              </li>
+              <li className='w-[160px] h-[60px] flex justify-between items-center bg-[#6fc2b0] ml-[-100px] hover:ml-[-10px] duration-300'>
+                <a className='flex justify-between items-center w-full text-gray-300'
+                href="/">
+                  Email <HiOutlineMail size={30} />
+                </a>
+              </li>
+              <li className='w-[160px] h-[60px] flex justify-between items-center bg-[#565f69] ml-[-100px] hover:ml-[-10px] duration-300'>
+                <a className='flex justify-between items-center w-full text-gray-300'
+                href="/">
+                  Certificate <TbCertificate size={30} />
+                </a>
               </li>
             </ul>
           </div>
     </div> 
   )
 }
-
-
 
 export default Navbar

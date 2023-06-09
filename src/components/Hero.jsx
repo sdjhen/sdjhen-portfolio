@@ -3,7 +3,9 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div className='w-full h-screen bg-[#000]'>
+
+    </div>
   )
 }
 

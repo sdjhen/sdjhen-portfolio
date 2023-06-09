@@ -33,11 +33,11 @@ const Navbar = () => {
           {/* Mobile Menu */}
           <ul className={!nav ? 'hidden' :'absolute top-0 left-0 w-full h-screen bg-[#000] flex flex-col justify-center items-center'}>
           <img src={Logo} alt="Logo Image" style={{width: '100px'}} />
-          <li className='py-6 text-4xl'>Home</li>
-          <li className='py-6 text-4xl' >About</li>
-          <li className='py-6 text-4xl'>Skills</li>
-          <li className='py-6 text-4xl'>Work</li>
-          <li className='py-6 text-4xl'>Contact</li>
+          <li className='py-6 text-4xl hover:text-pink-600'>Home</li>
+          <li className='py-6 text-4xl hover:text-pink-600' >About</li>
+          <li className='py-6 text-4xl hover:text-pink-600'>Skills</li>
+          <li className='py-6 text-4xl hover:text-pink-600'>Work</li>
+          <li className='py-6 text-4xl hover:text-pink-600'>Contact</li>
           </ul>
           
            {/* Social Icons */}

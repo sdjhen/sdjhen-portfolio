@@ -31,6 +31,7 @@ const Navbar = () => {
           
           {/* Mobile Menu */}
           <ul className={!nav ? 'hidden' :'absolute top-0 left-0 w-full h-screen bg-[#000] flex flex-col justify-center items-center'}>
+          <img src={Logo} alt="Logo Image" style={{width: '100px'}} />
           <li className='py-6 text-4xl'>Home</li>
           <li className='py-6 text-4xl' >About</li>
           <li className='py-6 text-4xl'>Skills</li>
@@ -40,7 +41,13 @@ const Navbar = () => {
           
           
           {/* Social Icons */}
-          <div className='hidden'></div>
+          <div className='flex fixed flex-col top-[35%] left-0'>
+            <ul>
+              <li>
+                <a href=""></a>
+              </li>
+            </ul>
+          </div>
     </div> 
   )
 }

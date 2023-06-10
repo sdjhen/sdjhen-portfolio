@@ -17,11 +17,11 @@ const Navbar = () => {
       {/* Nav Menu */}
       <nav className='hidden md:flex'>
         <ul className=' hidden md:flex'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Work</li>
-          <li>Contact</li>
+          <li className=' hover:text-pink-600'>Home</li>
+          <li className=' hover:text-pink-600'>About</li>
+          <li className=' hover:text-pink-600'>Skills</li>
+          <li className=' hover:text-pink-600'>Work</li>
+          <li className=' hover:text-pink-600'>Contact</li>
         </ul>
         </nav>
 

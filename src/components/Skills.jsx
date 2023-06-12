@@ -21,26 +21,25 @@ const Skills = () => {
                 <p className='my-4'>HTML</p>
             </div>
             <div className='shadow-sm shadow-[#313639] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={CSS} alt="HTML icon" />
+                <img className='w-20 mx-auto' src={CSS} alt="CSS icon" />
                 <p className='my-4'>CSS</p>
             </div>
             <div className='shadow-sm shadow-[#313639] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={JavaScript} alt="HTML icon" />
+                <img className='w-20 mx-auto' src={JavaScript} alt="JS icon" />
                 <p className='my-4'>JavaScript</p>
             </div>
             <div className='shadow-sm shadow-[#313639] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
+                <img className='w-20 mx-auto' src={ReactImg} alt="React icon" />
                 <p className='my-4'>React</p>
             </div>
             <div className='shadow-sm shadow-[#313639] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
+                <img className='w-20 mx-auto' src={Node} alt="Node JS icon" />
                 <p className='my-4'>Node JS</p>
             </div>
             <div className='shadow-sm shadow-[#313639] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
+                <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
                 <p className='my-4'>Tailwind CSS</p>
             </div>
-
         </div> 
     </div>
    </div>

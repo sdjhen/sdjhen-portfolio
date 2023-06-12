@@ -20,7 +20,7 @@ const Navbar = () => {
           <li className=' hover:text-pink-600'>Home</li>
           <li className=' hover:text-pink-600'>About</li>
           <li className=' hover:text-pink-600'>Skills</li>
-          <li className=' hover:text-pink-600'>Work</li>
+          <li className=' hover:text-pink-600'>Projects</li>
           <li className=' hover:text-pink-600'>Contact</li>
         </ul>
         </nav>
@@ -36,7 +36,7 @@ const Navbar = () => {
           <li className='py-6 text-4xl hover:text-pink-600'>Home</li>
           <li className='py-6 text-4xl hover:text-pink-600' >About</li>
           <li className='py-6 text-4xl hover:text-pink-600'>Skills</li>
-          <li className='py-6 text-4xl hover:text-pink-600'>Work</li>
+          <li className='py-6 text-4xl hover:text-pink-600'>Projects</li>
           <li className='py-6 text-4xl hover:text-pink-600'>Contact</li>
           </ul>
           

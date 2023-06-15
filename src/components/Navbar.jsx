@@ -44,14 +44,15 @@ const Navbar = () => {
           <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
               <li className='w-[160px] h-[60px] flex justify-between items-center bg-blue-600 ml-[-100px] hover:ml-[-10px] duration-300'>
-                <a className='flex justify-between items-center w-full text-gray-300'
-                href="/">
+                <a className='flex justify-between items-center w-full text-gray-300' target='_blank'
+                href="https://www.linkedin.com/in/sam-h-812513196/
+                ">
                   LinkedIn <FaLinkedin size={30} />
                 </a>
               </li>
               <li className='w-[160px] h-[60px] flex justify-between items-center bg-[#333333] ml-[-100px] hover:ml-[-10px] duration-300'>
-                <a className='flex justify-between items-center w-full text-gray-300'
-                href="/">
+                <a className='flex justify-between items-center w-full text-gray-300' target='_blank'
+                href="https://github.com/sdjhen">
                   GitHub <FaGithub size={30} />
                 </a>
               </li>
@@ -62,8 +63,8 @@ const Navbar = () => {
                 </a>
               </li>
               <li className='w-[160px] h-[60px] flex justify-between items-center bg-[#565f69] ml-[-100px] hover:ml-[-10px] duration-300'>
-                <a className='flex justify-between items-center w-full text-gray-300'
-                href="/">
+                <a className='flex justify-between items-center w-full text-gray-300' target='_blank'
+                href="https://skillsbootcamp.credential.getsmarter.com/738fe8f8-6155-4a34-8b7c-b0b77553f710#gs.0o8pcl">
                   Certificate <TbCertificate size={30} />
                 </a>
               </li>

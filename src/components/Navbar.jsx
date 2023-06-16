@@ -8,7 +8,16 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
 
-  return (
+// Function to handle email social icon
+const handleEmailClick = () => {
+  const email = 'sdjhen@hotmail.com';
+  const mailLink = `mailto:${email}`;
+
+  // Redirecting user to email client
+    window.location.href = mailLink;
+};
+
+return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000] text-gray-300 z-50'>
       <div>
       <img src={Logo} alt="Logo Image" style={{width: '80px'}} />
@@ -57,10 +66,10 @@ const Navbar = () => {
                 </a>
               </li>
               <li className='w-[160px] h-[60px] flex justify-between items-center bg-[#6fc2b0] ml-[-100px] hover:ml-[-10px] duration-300'>
-                <a className='flex justify-between items-center w-full text-gray-300'
-                href="/">
+                <button className='flex justify-between items-center w-full text-gray-300'
+                onClick={handleEmailClick}>
                   Email <HiOutlineMail size={30} />
-                </a>
+                </button>
               </li>
               <li className='w-[160px] h-[60px] flex justify-between items-center bg-[#565f69] ml-[-100px] hover:ml-[-10px] duration-300'>
                 <a className='flex justify-between items-center w-full text-gray-300' target='_blank'

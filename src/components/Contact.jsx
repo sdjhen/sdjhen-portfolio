@@ -67,6 +67,7 @@ const Contact = () => {
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
           <p className='text-gray-300 py-4'>// Submit the form below or drop me an email.</p>
+          
         </div>
         <input className='bg-[#ccd6fc] p-2' type="text" placeholder='Name' name='name' value={formData.name} onChange={handleInputChange} />
         <input className='bg-[#ccd6fc] p-2 my-4' type="email" placeholder='Email' name='email' value={formData.email} onChange={handleInputChange} />
@@ -77,4 +78,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contact

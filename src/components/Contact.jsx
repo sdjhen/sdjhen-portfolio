@@ -51,7 +51,7 @@ const Contact = () => {
   };
 
   return (
-    <div name="name" className='w-full h-screen bg-[#000] flex justify-center items-center p-4'>
+    <div name="contact" className='w-full h-screen bg-[#000] flex justify-center items-center p-4'>
       <form className='flex flex-col max-w-[600px] w-full' onSubmit={handleSubmit}>
         {errorMessage && (
           <p className='bg-pink-600 text-gray-300 font-bold inline-flex items-center justify-center h-8'>

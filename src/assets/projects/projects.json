@@ -1,0 +1,32 @@
+{
+    "demoURLs": [
+      {
+        "name": "Workday Scheduler",
+        "url": "https://sdjhen.github.io/work-day-scheduler/"
+      },
+      {
+        "name": "Team Profile Generator CLI",
+        "url": "https://github.com/sdjhen/team-profile-generator"
+      },
+      {
+        "name": "Password Generator",
+        "url": "https://sdjhen.github.io/password-generator/"
+      }
+      
+],
+    "githubRepos": [
+      {
+        "name": "workday-scheduler",
+        "url": "https://github.com/sdjhen/work-day-scheduler"
+      },
+      {
+        "name": "team-profile-generator",
+        "url": "https://github.com/sdjhen/team-profile-generator"
+      },
+      {
+        "name": "password-generator",
+        "url": "https://github.com/sdjhen/password-generator"
+      }
+       ]
+  }
+  

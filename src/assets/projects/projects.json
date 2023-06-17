@@ -1,27 +1,23 @@
 [
-    {
-      "name": "Workday Scheduler",
-      "image":"src/assets/planner.png",
-      "technology": "jQuery",
-      "demoURL": "https://sdjhen.github.io/work-day-scheduler/",
-      "codeURL": "https://github.com/sdjhen/work-day-scheduler"
-    },
-    {
-      "name": "Team Profile Generator CLI",
-      "image": "src/assets/team.png",
-      "technology": "Node JS",
-      "demoURL": "https://github.com/sdjhen/team-profile-generator",
-      "codeURL": "https://github.com/sdjhen/team-profile-generator"
-    },
-    {
-      "name": "Password Generator",
-      "image":"src/assets/password.png",
-      "technology": "Vanilla JS",
-      "demoURL": "https://sdjhen.github.io/password-generator/",
-      "codeURL": "https://github.com/sdjhen/password-generator"
-    }
-  ]
-  
-  
-  
-  
+  {
+    "name": "Workday Scheduler",
+    "image": "/planner.png",
+    "technology": "jQuery",
+    "demoURL": "https://sdjhen.github.io/work-day-scheduler/",
+    "codeURL": "https://github.com/sdjhen/work-day-scheduler"
+  },
+  {
+    "name": "Team Profile Generator CLI",
+    "image": "/team.png",
+    "technology": "Node JS",
+    "demoURL": "https://github.com/sdjhen/team-profile-generator",
+    "codeURL": "https://github.com/sdjhen/team-profile-generator"
+  },
+  {
+    "name": "Password Generator",
+    "image": "/password.png",
+    "technology": "Vanilla JS",
+    "demoURL": "https://sdjhen.github.io/password-generator/",
+    "codeURL": "https://github.com/sdjhen/password-generator"
+  }
+]

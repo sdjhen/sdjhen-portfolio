@@ -15,7 +15,7 @@
     },
     {
       "name": "Password Generator",
-      "image":"src/assets/planner.png",
+      "image":"src/assets/password.png",
       "technology": "Vanilla JS",
       "demoURL": "https://sdjhen.github.io/password-generator/",
       "codeURL": "https://github.com/sdjhen/password-generator"

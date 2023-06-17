@@ -1,6 +1,6 @@
 # Portfolio
 
-This is a portfolio project showcasing my skills and projects.
+This is a React JS portfolio project showcasing my skills and projects.
 
 ## Description
 

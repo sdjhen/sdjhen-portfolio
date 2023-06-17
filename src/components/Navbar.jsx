@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { TbCertificate } from "react-icons/tb";
+import {Link} from 'react-scroll'
 import Logo from '../assets/logo-white.png'
 
 const Navbar = () => {
@@ -24,15 +25,33 @@ return (
       </div>
 
       {/* Nav Menu */}
-      <nav className='hidden md:flex'>
-        <ul className=' hidden md:flex'>
-          <li className=' hover:text-pink-600'>Home</li>
-          <li className=' hover:text-pink-600'>About</li>
-          <li className=' hover:text-pink-600'>Skills</li>
-          <li className=' hover:text-pink-600'>Projects</li>
-          <li className=' hover:text-pink-600'>Contact</li>
-        </ul>
-        </nav>
+      <ul className='hidden md:flex'>
+        <li>
+          <Link to='hero' smooth={true} duration={500} className='hover:text-pink-600'>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to='about' smooth={true} duration={500} className='hover:text-pink-600' >
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to='skills' smooth={true} duration={500} className='hover:text-pink-600'>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to='projects' smooth={true} duration={500} className='hover:text-pink-600'>
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link to='contact' smooth={true} duration={500} className='hover:text-pink-600'>
+            Contact
+          </Link>
+        </li>
+      </ul>
 
       {/* Hamburger */}
           <div onClick={handleClick} className='md:hidden z-10'>
@@ -40,14 +59,44 @@ return (
           </div>
           
           {/* Mobile Menu */}
-          <ul className={!nav ? 'hidden' :'absolute top-0 left-0 w-full h-screen bg-[#000] flex flex-col justify-center items-center'}>
-          <img src={Logo} alt="Logo Image" style={{width: '100px'}} />
-          <li className='py-6 text-4xl hover:text-pink-600'>Home</li>
-          <li className='py-6 text-4xl hover:text-pink-600' >About</li>
-          <li className='py-6 text-4xl hover:text-pink-600'>Skills</li>
-          <li className='py-6 text-4xl hover:text-pink-600'>Projects</li>
-          <li className='py-6 text-4xl hover:text-pink-600'>Contact</li>
-          </ul>
+          <ul
+        className={
+          !nav
+            ? 'hidden'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#000] flex flex-col justify-center items-center'
+        }
+      >
+         <img src={Logo} alt="Logo Image" style={{width: '100px'}} />
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to='hero' smooth={true} duration={500} className='hover:text-pink-600'>
+            Home
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='about' smooth={true} duration={500} className='hover:text-pink-600'>
+            About
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='skills' smooth={true} duration={500} className='hover:text-pink-600'>
+            Skills
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='projects' smooth={true} duration={500} className='hover:text-pink-600'>
+            Projects
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='contact' smooth={true} duration={500} className='hover:text-pink-600'>
+            Contact
+          </Link>
+        </li>
+      </ul>
           
            {/* Social Icons */}
           <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>

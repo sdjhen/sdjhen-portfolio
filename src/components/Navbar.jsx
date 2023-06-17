@@ -13,7 +13,7 @@ const handleEmailClick = () => {
   const email = 'sdjhen@hotmail.com';
   const mailLink = `mailto:${email}`;
 
-  // Redirecting user to email client
+  // Redirect user to email client
     window.location.href = mailLink;
 };
 

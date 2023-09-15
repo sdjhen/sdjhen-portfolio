@@ -44,11 +44,11 @@ const Skills = () => {
                 <p className='my-4'>Tailwind CSS</p>
             </div>
             <div className='shadow-sm shadow-[#313639] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={PHP} alt="Tailwind icon" />
+                <img className='w-20 mx-auto' src={PHP} alt=" PHP icon" />
                 <p className='my-4'>PHP</p>
             </div>
             <div className='shadow-sm shadow-[#313639] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={MySQL} alt="Tailwind icon" />
+                <img className='w-20 mx-auto' src={MySQL} alt="MySQL icon" />
                 <p className='my-4'>MySQL</p>
             </div>
         </div> 

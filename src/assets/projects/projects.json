@@ -1,5 +1,19 @@
 [
   {
+    "name": "Samify - Spotify Clone",
+    "image": "/play.png",
+    "technology": "PHP, jQuery, MySQL",
+    "demoURL": "https://github.com/sdjhen/spotify-clone",
+    "codeURL": "https://github.com/sdjhen/spotify-clone"
+  },
+  {
+    "name": "MVC Framework",
+    "image": "/mvc.png",
+    "technology": "PHP",
+    "demoURL": "https://github.com/sdjhen/sdjhen-mvc",
+    "codeURL": "https://github.com/sdjhen/sdjhen-mvc"
+  },
+  {
     "name": "Workday Scheduler",
     "image": "/planner.png",
     "technology": "jQuery",

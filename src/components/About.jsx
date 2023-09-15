@@ -17,7 +17,7 @@ const About = () => {
                 <p>Hi, I'm Sam, pleasure to meet you. Please take a look around.</p>
             </div>
             <div>
-                <p>An experienced front end junior developer with a strong foundation acquired through comprehensive bootcamp training. Proficient in React and Node.js, utilising expertise to architect and develop high-quality, performant and mobile-first web applications. Meticulous attention to detail and a commitment to excellence ensure the delivery of refined and intuitive user experiences.</p>
+                <p>An experienced Junior Developer with a solid foundation acquired through comprehensive bootcamp training. Proficient in React, Node.js, and PHP, I leverage my expertise to architect and develop high-quality, performant, and mobile-first web applications. Meticulous attention to detail and a commitment to excellence ensure the delivery of refined and intuitive user experiences.</p>
             </div>
         </div>
         </div>
